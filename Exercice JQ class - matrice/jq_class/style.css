@@ -1,0 +1,75 @@
+body{
+    background: lightslategrey;
+}
+
+
+#matrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.rond{
+    height: 80px;
+    width: 80px;
+    border-radius: 50em;
+    border: black 1px solid;
+    margin: 30px;
+}
+
+.carre{
+    height: 80px;
+    width: 80px;
+    border: black 1px solid;
+    margin: 30px;
+}
+
+.losange{
+    height: 80px;
+    width: 80px;
+    border: black 1px solid;
+    margin: 30px;
+    transform: rotate(45deg);
+}
+
+.plein.rond{
+    background: darkred;
+}
+
+
+.plein.carre{
+    background: darkgreen;
+}
+
+
+.plein.losange{
+    background: goldenrod;
+}
+
+.vide.rond{
+    background: none;
+}
+
+.vide.carre{
+    background: none;
+}
+
+.vide.losange{
+    background: none;
+}
+
+#divBoutons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bouton{
+    margin: 10px;
+    height: 32px;
+    width: 85px;
+    background: palevioletred;
+    border : darkgrey 4px solid;
+}
+

@@ -1,0 +1,1 @@
+$('p').text('Hello world !').css('font-weight', 'bold');

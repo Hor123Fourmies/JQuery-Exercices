@@ -1,0 +1,3 @@
+$("selecteur").hide();
+
+$("p").hide();
